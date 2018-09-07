@@ -53,7 +53,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
 .el-breadcrumb {
   background-color: #f5f5f5;
   height: 45px;

@@ -61,3 +61,10 @@ export const getAllRightsList = (type) => {
     return res.data
   })
 }
+
+// 获取角色列表
+export const getAllRoleList = (pa) => {
+  return axios.get('roles', pa).then((res) => {
+    return res.data
+  })
+}

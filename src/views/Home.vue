@@ -83,7 +83,7 @@ export default {
   height: 100%;
   .el-menu:not(.el-menu--collapse) {
     width: 200px;
-    min-height: 400px;
+    min-height: 1000px;
     border-right: none;
   }
   .el-container {
